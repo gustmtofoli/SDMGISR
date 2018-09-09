@@ -1,0 +1,19 @@
+##Climate data
+
+http://www.diva-gis.org/climate
+
+http://www.worldclim.org/
+
+## Elevation data
+
+http://www.cgiar-csi.org/data/srtm-90m-digital-elevation-database-v4-1#download
+
+http://srtm.csi.cgiar.org/SELECTION/inputCoord.asp
+
+## Land use data
+
+http://due.esrin.esa.int/page_globcover.php
+
+## Population raster
+
+http://sedac.ciesin.columbia.edu/data/sets/browse?facets=theme:population&facets=data-type:raster
