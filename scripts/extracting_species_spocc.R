@@ -10,7 +10,7 @@ results = occ(query = 'Rhinoplax vigil', from = c('ebird', 'gbif','ecoengine'))
 summary(results)
 
 ## get data for multiple species from multiple DBs
-spp= c("Rhinoplax vigil", "Buceros rhinoceros", "Anthracoceros malayanus")
+spp = c("Rhinoplax vigil", "Buceros rhinoceros", "Anthracoceros malayanus")
 res_set = occ(spp, from = c('gbif', 'ecoengine'))
 head(res_set)
 
