@@ -11,6 +11,7 @@ par(mfrow=c(1,2))
 plot(el1)
 plot(el2)
 
+# estourou a memória
 mosee = mosaic(el1, el2, fun=mean)
 plot(mosee)
 
