@@ -15,3 +15,7 @@ install.packages('spocc')
 install.packages('caret')
 install.packages('pROC')
 install.packages('ModelMetrics')
+
+# maps
+install.packages('mapr')
+install.packages('ggmap')

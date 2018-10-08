@@ -1,6 +1,10 @@
+library(raster)
+library(rgdal)
 
-# estoutou a memÃ³ria do computador
+# estourou memória - 6GB RAM
+# 8GB RAM foi o suficiente 
 mosee #lat long
+mosee = raster("C:/Users/kelle/Documents/Pintuxo/Desenvolvimento/resources_SDMGISR/join_59_60.tif")
 
 ## advisable to convert lat-long rasters to planar units such as UTM
 ## in meters
@@ -9,6 +13,8 @@ mosee #lat long
 ref = "+proj=utm +zone=50 +ellps=GRS80 +datum=NAD83 +units=m +no_defs" 
 
 library(raster)
+
+# travou computador - 8GB
 projected_raster = projectRaster(mosee, crs = ref)
 
 projected_raster
