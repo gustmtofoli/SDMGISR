@@ -17,3 +17,8 @@ install-dependencies:
 	export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre"
 	export LD_LIBRARY_PATH=/usr/lib/jvm/java-8-oracle/jre/lib/amd64/server
 	sudo R CMD javareconf
+	sudo add-apt-repository ppa:marutter/rrutter
+	sudo apt-get update
+	sudo apt-get install r-cran-rgl
+	sudo apt-get install libx11-dev
+	sudo apt-get install libftgl2 
