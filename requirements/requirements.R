@@ -19,3 +19,9 @@ install.packages('ModelMetrics')
 # maps
 install.packages('mapr')
 install.packages('ggmap')
+
+# java and R
+# download maxent from https://biodiversityinformatics.amnh.org/open_source/maxent/
+# copy .jar to java directory from dismo package
+install.packages('rJava')
+Sys.setenv(JAVA_HOME='/usr/lib/jvm/java-8-oracle/jre')

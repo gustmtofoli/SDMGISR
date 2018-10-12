@@ -12,7 +12,7 @@ library(rgeos)
 
 # setwd("F:\\SDM_in R\\Data\\1_Raster data\\bioclim")
 
-horn=read.csv("C:/Users/kelle/Documents/Pintuxo/Desenvolvimento/resources_SDMGISR/2_SDM Data/hornbill_my1.csv")
+horn=read.csv("/home/gustavo/Documentos/SDMGISR-files/2_SDM Data/hornbill_my1.csv")
 head(horn)
 horn1= horn[,-1]#first column not needed
 
