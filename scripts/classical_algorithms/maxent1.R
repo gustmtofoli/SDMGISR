@@ -4,6 +4,7 @@
 library(raster)
 library(rgdal)
 library(dismo)
+library(rJava)
 
 setwd("/home/gustavo/Documentos/SDMGISR-files/2_SDM Data/bioclim")
 
